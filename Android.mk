@@ -12,13 +12,6 @@ LOCAL_CPP_EXTENSION := .cpp
 
 LOCAL_SRC_FILES := mbw.c
 
-# LOCAL_SHARED_LIBRARIES := libLinuxShareMem
-
-# LOCAL_STATIC_LIBRARIES :=
-
-# LOCAL_LDFLAGS := -Wl,--version-script=$(LOCAL_PATH)/exports.txt
-
-# LOCAL_LDLIBS := -L$(LOCAL_PATH) -L$(LOCAL_PATH)/../libs/armeabi-v7a  -L$(LOCAL_PATH)/../lib -lLinuxShareMem -landroid_shmem
 
 include $(BUILD_EXECUTABLE)
 
